@@ -1,0 +1,19 @@
+{
+  "targetWebsite": {
+   "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",     
+    "searchSelector": "body",
+    "searchButtonSelector": "body",
+    "pdfLinkSelector": "a[href$='.pdf']",
+    "addressToSearch": "sample"
+  },
+  "performance": {
+    "maxConcurrentDownloads": 5,
+    "timeout": 15000,
+    "waitTime": 2000,
+    "headless": true
+  },
+  "output": {
+    "directory": "./downloads",
+    "logFile": "./logs/crawler.log"
+  }
+}
